@@ -33,11 +33,7 @@ module.exports = {
         this.list.push(task);
         this.start();
     },
-<<<<<<< HEAD
-    stop:function(){
-=======
     stop: function() {
->>>>>>> dev
         this.list = [];
     }
 };
