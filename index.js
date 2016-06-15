@@ -32,5 +32,8 @@ module.exports = {
     push: function(task) {
         this.list.push(task);
         this.start();
+    },
+    stop: function() {
+        this.list = [];
     }
 };
