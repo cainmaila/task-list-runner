@@ -98,7 +98,7 @@ var task1 = {
 ```
 **task1.data** 需要利用的數據可以放這裡
 **task1.task** 這是一個函示，會依照駐列任務執行
-**task1.tasker.endAndNext** 任務完成後不管成功或失敗，你利用這個方法告訴任務處理器，task1.tasker 即為任務處理器本身，同等於 tasklist.tasker.endAndNext
+**task1.tasker.endAndNext** 任務完成後不管成功或失敗，你利用這個方法告訴任務處理器，task1.tasker 即為任務處理器本身，task1.tasker.endAndNext()同等於 tasklist.endAndNext()
 
 你可以利用下面方法來清空你的駐列，執行後駐列將不會繼續下一個任務
 ```
