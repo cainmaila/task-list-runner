@@ -11,7 +11,8 @@ npm install task-list-runner
 #### 使用說明
 
 ```
-var tasklist = require('task-list-runner');
+var TaskListRunner = require('task-list-runner');
+var tasklist = new TaskListRunner();
 
 //定義完成一個task的callback，並回傳這個task的data
 tasklist.endAnTask = function(data) {
