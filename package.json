@@ -1,6 +1,6 @@
 {
   "name": "task-list-runner",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "駐列任務處理器",
   "main": "index.js",
   "scripts": {

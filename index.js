@@ -9,7 +9,7 @@ module.exports = function() {
                 this.next();
             } else {
                 this.runingTask = null;
-                this.endCall();
+                setTimeout(this.endCall,1);
             }
         },
         isRuning: false,
